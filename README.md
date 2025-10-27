@@ -1,8 +1,5 @@
 # Wireshark Packet Capture Analysis
 
-## Task Overview
-This project demonstrates basic packet capture, protocol analysis, and network troubleshooting using Wireshark. The goal is to capture live network traffic, identify protocols, and summarize key findings as per the internship task guidelines.
-
 ## Steps Performed
 
 1. **Wireshark Installation**
@@ -12,7 +9,7 @@ This project demonstrates basic packet capture, protocol analysis, and network t
       sudo apt install wireshark
       ```
 2. **Packet Capture**
-    - Started Wireshark and selected the active network interface (typically `wlan0` or `eth0`).
+    - Started Wireshark and selected the active network interface (`wlan0`).
     - Began packet capturing and generated network traffic by browsing websites and running `ping` commands.
 3. **Capture Filtering**
     - Used protocol filters:
@@ -24,7 +21,6 @@ This project demonstrates basic packet capture, protocol analysis, and network t
     - Saved the capture as `network_capture.pcap`.
 5. **Analysis & Reporting**
     - Summarized protocols and notable packet details.
-    - Answered key interview questions (see below).
 
 ## Protocols Identified
 - **TCP**: Reliable connection protocol used in web browsing and connections.
